@@ -4,9 +4,13 @@ import { Link } from 'react-router-dom'
 function NavBar() {
   return (
     <div>
-       <nav class="navbar navbar-expand-lg navbar-light bg-white">
+       <nav class="navbar navbar-expand-lg navbar-light bg-white ">
   <div class="container ">
-    <a class="navbar-brand fw-bold" href="#">RoboMeet</a>
+    
+
+    <a class="navbar-brand fw-bold" href="#">
+    <img width="50" height="50" src="https://img.icons8.com/quill/50/bot.png" alt="bot"/>
+    𝙍𝙊𝘽𝙊𝙈𝙀𝙀𝙏 </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
