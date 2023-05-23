@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 function Home() {
   return (
     <div>
+      <hr className="" style={{"background":"black"}}></hr>
       <div class="container">
         <div class="row " style={{"min-height":'80vh'}}>
           <div class="col  d-flex flex-column align-items-start justify-content-center">
